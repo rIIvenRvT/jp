@@ -1,0 +1,90 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    //numeros
+    int um = 1;
+    int dois = 2;
+    int tres = 3;
+    int quatro = 4;
+    int cinco = 5;
+    int seis = 6;
+    int sete = 7;
+    int oito = 8;
+    int nove = 9;
+    int dez = 10;
+    //tabuada do 1
+    int umxum = um * um;
+    int umxdois = um * dois;
+    int umxtres = um * tres;
+    int umxqu = um * quatro;
+    int umxci = um * cinco;
+    int umxsei = um * seis;
+    int umxse = um * sete;
+    int umxoi = um * oito;
+    int umxno = um * nove;
+    int umxdez = um * dez;
+    //----------------
+    //tabuada do 2
+    int doxum = dois * um;
+    int doxdois = dois * dois;
+    int doxtres = dois * tres;
+    int doxqu = dois * quatro;
+    int doxci = dois * cinco;
+    int doxsei = dois * seis;
+    int doxse = dois * sete;
+    int doxoi = dois * oito;
+    int doxno = dois * nove;
+    int doxdez = dois * dez;
+    //---------------
+    //tabuada do 3
+    int trexum = tres * um;
+    int trexdois = tres * dois;
+    int trextres = tres * tres;
+    int trexqu = tres * quatro;
+    int trexci = tres * cinco;
+    int trexsei = tres * seis;
+    int trexse = tres * sete;
+    int trexoi = tres * oito;
+    int trexno = tres * nove;
+    int trexdez = tres * dez;
+    //---------------
+    //tabuada do 4
+    int quxum = quatro * um;
+    int quxdois = quatro * dois;
+    int quxtres = quatro * tres;
+    int quxqu = quatro * quatro;
+    int quxci = quatro * cinco;
+    int quxsei = quatro * seis;
+    int quxse = quatro * sete;
+    int quxoi = quatro * oito;
+    int quxno = quatro * nove;
+    int quxdez = quatro * dez;
+    //---------------
+    //tabuada do 5
+    int cixum = cinco * um;
+    int cixdois = cinco * dois;
+    int cixtres = cinco * tres;
+    int cixqu = cinco * quatro;
+    int cixci = cinco * cinco;
+    int cixsei = cinco * seis;
+    int cixse = cinco * sete;
+    int cixoi = cinco * oito;
+    int cixno = cinco * nove;
+    int cixdez = cinco * dez;
+    //---------------
+    printf("Tabuada do 1:\n\n");
+    printf("1 vezes 1 é: %d\n1 vezes 2 é: %d\n1 vezes 3 é: %d\n1 vezes 4 é: %d\n1 vezes 5 é: %d\n1 vezes 6 é: %d\n1 vezes 7 é: %d\n1 vezes 8 é: %d\n1 vezes 9 é: %d\n1 vezes 10 é: %d\n\n", umxum, umxdois, umxtres, umxqu, umxci, umxsei, umxse, umxoi, umxno, umxdez);
+    printf("Tabuada do 2:\n\n");
+    printf("2 vezes 1 é: %d\n2 vezes 2 é: %d\n2 vezes 3 é: %d\n2 vezes 4 é: %d\n2 vezes 5 é: %d\n2 vezes 6 é: %d\n2 vezes 7 é: %d\n2 vezes 8 é: %d\n2 vezes 9 é: %d\n2 vezes 10 é: %d\n\n", doxum, doxdois, doxtres, doxqu, doxci, doxsei, doxse, doxoi, doxno, doxdez);
+    printf("Tabuada do 3:\n\n");
+    printf("3 vezes 1 é: %d\n3 vezes 2 é: %d\n3 vezes 3 é: %d\n3 vezes 4 é: %d\n3 vezes 5 é: %d\n3 vezes 6 é: %d\n3 vezes 7 é: %d\n3 vezes 8 é: %d\n3 vezes 9 é: %d\n3 vezes 10 é: %d\n\n", trexum, trexdois, trextres, trexqu, trexci, trexse, trexse, trexoi, trexno, trexdez);
+    printf("Tabuada do 4:\n\n");
+    printf("4 vezes 1 é: %d\n4 vezes 2 é: %d\n4 vezes 3 é: %d\n4 vezes 4 é: %d\n4 vezes 5 é: %d\n4 vezes 6 é: %d\n4 vezes 7 é: %d\n4 vezes 8 é: %d\n4 vezes 9 é: %d\n4 vezes 10 é: %d\n\n", quxum, quxdois, quxtres, quxqu, quxci, quxse, quxse, quxoi, quxno, quxdez);
+    printf("Tabuada do 5:\n\n");
+    printf("5 vezes 1 é: %d\n5 vezes 2 é: %d\n5 vezes 3 é: %d\n5 vezes 4 é: %d\n5 vezes 5 é: %d\n5 vezes 6 é: %d\n5 vezes 7 é: %d\n5 vezes 8 é: %d\n5 vezes 9 é: %d\n5 vezes 10 é: %d\n\n", cixum, cixdois, cixtres, cixqu, cixci, cixse, cixse, cixoi, cixno, cixdez);
+    printf("Pronto ;D");
+    return 0;
+}
